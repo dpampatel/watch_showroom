@@ -1,0 +1,92 @@
+﻿/*** Bootstrap overrides ***/
+.container {
+    border:1px solid #cecece;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.jumbotron {
+    background: url("../Images/banner.jpg");
+    background-size: 100% 100%;
+    margin-top: 1em;
+}
+
+.btn { 
+    margin-bottom: 1em;
+}
+
+.checkbox {
+    margin-left: 2em;
+}
+
+label {
+    font-weight: normal;
+}
+
+/*** classes ***/
+.summary {
+    padding: 1em;
+    border:1px solid #cecece;
+}
+
+/*** server controls ***/
+#lblUnitPrice {
+    font-weight: bold;
+}
+
+#lstCart { 
+    min-height: 8em;
+}
+
+.cls-summary {
+    font-size: 1.75em;
+    display: list-item;
+}
+
+.cls-checkout {
+    text-align: center;
+}
+
+.cls-Showroom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height:100vh;
+}
+
+.cls-details {
+    padding: 5px 15px;
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.cls-Showroom .container {
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 10px;
+    border: none;
+}
+
+#imgWatch {
+    height: 300px;
+}
+.cls-buttons {
+    text-align:center;
+}
+
+.cls-Watch {
+    /*height: 500px;*/
+    text-align: center;
+}
+    .cls-Watch img {
+        height:350px;
+        width:350px;
+    }
+    .navbar .glyphicon {
+        width: 20px;
+    }
+
+.navbar-nav {
+    float:right;
+}
